@@ -14,6 +14,7 @@ Usage
 For optimal results use these dimensions:
 
 __original:__ 22x18 pixels
+
 __narrow:__ 20x18 pixels
 
 
