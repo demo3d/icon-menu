@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>SVG Menu icon with PNG fallback</title>
+	<style>
+		body { background: #aaa; }
+		img { display: block; margin: 10px; }
+	</style>
+</head>
+<body>
+
+	<h2>standard</h2>
+
+	<img src="icon-menu.svg" onerror="this.onerror=null; this.src='icon-menu.png'" width="22" height="18" alt="MENU">
+	<img src="icon-menu-white.svg" onerror="this.onerror=null; this.src='icon-menu-white.png'" width="22" height="18" alt="MENU">
+
+	<h2>narrow</h2>
+
+	<img src="icon-menu-narrow.svg" onerror="this.onerror=null; this.src='icon-menu-narrow.png'" width="20" height="18" alt="MENU">
+	<img src="icon-menu-narrow-white.svg" onerror="this.onerror=null; this.src='icon-menu-narrow-white.png'" width="20" height="18" alt="MENU">
+
+</body>
+</html>
