@@ -6,8 +6,16 @@ This repository includes:
 - black version
 - white version
 - narrow version of both
+- original Sketch file
 
-Use in 22x18 / 20x18 for pixel perfect rendering.
+Usage
+-----
+
+For optimal results use these dimensions:
+
+__original:__ 22x18 pixels
+__narrow:__ 20x18 pixels
+
 
 LICENSE
 -------
